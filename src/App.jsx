@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 
 // ─── CONFIG — À PERSONNALISER ────────────────────────────────────────────────
 const CONFIG = {
-  PAYPAL_EMAIL: "VOTRE_EMAIL_PAYPAL@example.com",   // ← remplacez ici
-  HOST_EMAIL:   "VOTRE_EMAIL@example.com",           // ← remplacez ici
+  PAYPAL_EMAIL: "alexydaddio@gmail.com",   // ← remplacez ici
+  HOST_EMAIL:   "alexydaddio@gmail.com",           // ← remplacez ici
   PROPERTY_NAME: "Sunny Terrace",
   CITY: "Nice",
-  WHATSAPP: "+33600000000",                          // ← votre numéro WhatsApp
+  WHATSAPP: "+33637728856",                          // ← votre numéro WhatsApp
 };
 // ─────────────────────────────────────────────────────────────────────────────
 

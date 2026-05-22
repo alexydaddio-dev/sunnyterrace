@@ -819,9 +819,11 @@ export default function App() {
   const t = T[lang];
 
   useEffect(() => {
-    setBreakfastDays(Array.from({ length: nights }, (_,i) =>
-      breakfastDays[i] || { active:false, qty:{}, time:"" }
-    ));
+    setBreakfastDays(prev =>
+      Array.from({ length: nights }, (_,i) =>
+        prev[i] || { active:false, qty:{}, time:"" }
+      )
+    );
   }, [nights]);
 
   // reset arrival/departure slots when language changes (slots are different)
